@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>The Basic Language of the Web: HTML</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
       <nav>
         <a href="blog.html">Blog</a>
@@ -99,7 +100,7 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="images/related-1.jpg"
@@ -107,7 +108,8 @@
             width="75"
             height="75"
           />
-          <a href="#">How to Learn Web Development</a> by Jonas Schmedtmann
+          <a href="#">How to Learn Web Development</a>
+          <p class="related-author">by Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -116,7 +118,8 @@
             width="75"
             height="75"
           />
-          <a href="#">The unknown Powers of CSS</a>by Jim Dillon
+          <a href="#">The unknown Powers of CSS</a>
+          <p class="related-author">by Jim Dillon</p>
         </li>
         <li>
           <img
@@ -125,10 +128,11 @@
             width="75"
             height="75"
           />
-          <a href="#">Why JavaScript is Awesome</a>by Matilda
+          <a href="#">Why JavaScript is Awesome</a>
+          <p class="related-author">by Matilda</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2027 by the Code Magazine</footer>
+    <footer><p>Copyright &copy; 2027 by the Code Magazine</p></footer>
   </body>
 </html>
